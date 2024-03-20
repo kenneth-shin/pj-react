@@ -38,3 +38,16 @@
 }
 .personInfo {margin-top:15px}
 .personInfo p {margin:5px 0 0 0;}
+button {
+  padding:8px 15px; 
+  display: inline-block;
+  font-size: 1.3rem;
+  border:1px solid #fff;
+  border-radius:8px;
+  background:#ddd;
+  cursor: pointer;
+  margin:0 5px;
+}
+button:hover {
+  background:#fff;
+}

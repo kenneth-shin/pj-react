@@ -1,9 +1,11 @@
 import React from "react";
 
-function TitleName(props){
+function TitleName({name, isSpecial}){
     return (
-        <div>{props.name}</div>
+        <div>
+            {name}
+            {isSpecial ? <b>***</b> : null}
+        </div>
     );
 }
 export default TitleName;
-

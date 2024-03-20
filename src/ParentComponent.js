@@ -4,7 +4,7 @@ import ChildComponent from './ChildComponent';
 function ParentComponent() {
   const name = "John";
   const age = 34;
-  const isStudent = false;
+  const isStudent = true;
 
   return (
     <ChildComponent
