@@ -9,7 +9,7 @@ function ParentComponent() {
   return (
     <ChildComponent
       fullName={name}
-      //age={age}
+      age={age}
       isStudent={isStudent}
     />
   );

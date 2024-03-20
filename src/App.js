@@ -12,7 +12,7 @@ function App(){
         <img src={logo} className="App-logo" alt="logo" />
         <div>{name}</div>
         <ThisIs name="this is..." />
-        <ThisIs name="T" />
+        <ThisIs name="Name 2" />
         <ParentComponent />
       </header>
     </div>
