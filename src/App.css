@@ -36,3 +36,5 @@
     transform: rotate(360deg);
   }
 }
+.personInfo {margin-top:15px}
+.personInfo p {margin:5px 0 0 0;}
